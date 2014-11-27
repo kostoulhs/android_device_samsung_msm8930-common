@@ -75,7 +75,7 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 # Maximum GLES shader cache size for each app to store the compiled shader
 # binaries. Decrease the size if RAM or Flash Storage size is a limitation
 # of the device.
-MAX_EGL_CACHE_SIZE := 2048*1024
+MAX_EGL_CACHE_SIZE := 1024*1024
 
 # Wifi driver
 BOARD_HAS_QCOM_WLAN              := true
