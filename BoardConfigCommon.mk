@@ -107,4 +107,5 @@ BOARD_SEPOLICY_UNION += \
     thermald.te \
     time_daemon.te \
     untrusted_app.te \
-    vold.te
+    vold.te \
+    wcnss_service.te
