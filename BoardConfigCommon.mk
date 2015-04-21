@@ -41,6 +41,9 @@ BOARD_CHARGING_CMDLINE_VALUE := "true"
 BOARD_EGL_CFG := device/samsung/msm8930-common/configs/egl.cfg
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 
+# Renderscript
+OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
